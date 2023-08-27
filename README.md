@@ -36,7 +36,7 @@ The best performing model in this case was the LightGBM. This is an ensemble mod
 
 ## Pipeline comparison
 Notice that the AutoMl process scaled the data. This is important to speed up the convergence of the algorithm.
-The accuracy of the lr model is slightly better than that of LightGBM.
+The accuracy of the lr model is slightly better than that of LightGBM 0.917 vs 0.915. However this difference is negligible.
 
 ## Future work
 It could be interesting to test the generalization ability of the models on other unseen datapoints.
